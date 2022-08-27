@@ -16,6 +16,9 @@
   --third-color: #171926;
   --second-color: #1c1e2e;
 }
+#main-main{
+  max-width: 100vw;
+}
 #all-body {
   background-color: var(--body-color);
 }
