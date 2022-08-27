@@ -12,13 +12,15 @@
 #contact-container {
   height: 110vh;
   padding-top: 10vh;
+  width: 100vw;
+  background-color: red;
 }
 #form-container {
   display: flex;
   justify-content: center;
 }
 #contact-form {
-  width: 55vw;
+  width: 70rem;
   height: 100%;
   padding: 2.5rem;
   background-color: var(--nav-color);

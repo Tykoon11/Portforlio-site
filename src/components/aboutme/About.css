@@ -14,6 +14,7 @@
   justify-content: center;
   background-color: var(--second-color);
   height: 100vh;
+  width: 100vw;
 }
 #about-component2 {
   display: grid;
@@ -74,6 +75,7 @@
     padding-top: 12vh;
     background-color: var(--second-color);
     height: 100%;
+    width: 100vw;
   }
   #about-component2 {
     display: flex;

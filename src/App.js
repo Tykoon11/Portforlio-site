@@ -10,7 +10,7 @@ import { FiLinkedin } from "react-icons/fi";
 
 function App() {
   return (
-    <div>
+    <div >
       <div id="social-logos">
         <div className="social">
           <SiInstagram />
