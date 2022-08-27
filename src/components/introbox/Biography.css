@@ -16,6 +16,7 @@
   display: flex;
   justify-content: space-between;
   padding: 11rem;
+  /* background-color: aqua; */
 }
 #bio-can {
   background-color: var(--touch-color);
@@ -72,7 +73,8 @@
 
 @media (max-width: 1230px) {
   #bio-container {
-    background-color: var(--body-color);
+    /* background-color: var(--body-color); */
+    background-color: red;
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -81,7 +83,8 @@
   #bio-can {
     background-color: var(--touch-color);
     margin-top: 4rem;
-    width: 900px;
+    width: 60vw;
+    padding: 0 3rem;
   }
   .photo1-bc {
     background: url("../../../public/images/profile2.jpg");
