@@ -1,0 +1,95 @@
+:root {
+  --nav-color: #ccd6f6;
+  --body-color: #1b1d2c;
+  --touch-color: #1b1d2c;
+  --green-color: #26ad5f;
+  --main-color: #1b1d2c;
+  --fourth-color: #2e324c;
+  --third-color: #171926;
+  --second-color: #1c1e2e;
+}
+#overall {
+  height: 100vh;
+}
+#bio-container {
+  height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  padding: 11rem;
+}
+#bio-can {
+  background-color: var(--touch-color);
+  width: 50vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.des {
+  font-size: 55px;
+}
+.des1 {
+  color: var(--nav-color);
+}
+.des2 {
+  color: var(--green-color);
+}
+.intro-code {
+  color: var(--nav-color);
+}
+#projects-btn {
+  padding: 1rem 4rem;
+  border: none;
+  border-radius: 1rem;
+  margin-top: 2rem;
+  background-color: var(--green-color);
+  color: var(--nav-color);
+}
+#projects-btn:hover {
+  color: var(--green-color);
+  background-color: var(--nav-color);
+}
+.photo1-bc {
+  background: url("../../../public/images/profile2.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  min-height: 480px;
+  min-width: 400px;
+  border-radius: 3%;
+  border: 0.5rem solid var(--green-color);
+  margin: 4rem;
+}
+.photo1-bc:hover {
+  background: url("../../../public/images/profile.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  min-height: 480px;
+  min-width: 400px;
+  border-radius: 3%;
+  border: 0.5rem solid var(--green-color);
+}
+
+
+@media (max-width: 1230px) {
+  #bio-container {
+    background-color: var(--body-color);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #bio-can {
+    background-color: var(--touch-color);
+    margin-top: 4rem;
+    width: 900px;
+  }
+  .photo1-bc {
+    background: url("../../../public/images/profile2.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 480px;
+    max-width: 400px;
+    border-radius: 3%;
+    border: 0.5rem solid var(--green-color);
+  }
+}

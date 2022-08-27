@@ -1,38 +1,105 @@
-.App {
-  text-align: center;
+@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+
+* {
+  font-family: "Anton", sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+:root {
+  --nav-color: #ccd6f6;
+  --body-color: #1b1d2c;
+  --touch-color: #1b1d2c;
+  --green-color: #26ad5f;
+  --main-color: #1b1d2c;
+  --fourth-color: #2e324c;
+  --third-color: #171926;
+  --second-color: #1c1e2e;
+}
+#all-body {
+  background-color: var(--body-color);
+}
+#about-can {
+  padding-top: 20vh;
+  height: 60vh;
+}
+.p-text1 {
+  color: #8892af;
+  margin-left: 20vw;
+  width: 40vw;
+}
+.profile-can {
+  display: flex;
+}
+.mobile-navigation {
+  display: none;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+#social-logos {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  position: fixed;
+  margin: 53vh 4vw 1vh 4vw;
+}
+.social > *:first-child {
+  font-size: 25px;
+  margin-top: 30px;
+  color: var(--nav-color);
+}
+#email-addy {
+  transform: rotate(90deg);
+  position: fixed;
+  margin: 73vh 4vw 1vh 85vw;
+}
+#email-addy code {
+  color: var(--nav-color);
+  letter-spacing: 3px;
+}
+#social-logos2 {
+  display: none;
+}
+#email-addy2 {
+  display: none;
+}
+#footer {
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  background-color: var(--body-color);
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media (max-width: 1350px) {
+  #email-addy {
+    transform: rotate(90deg);
+    position: fixed;
+    margin: 73vh 4vw 1vh 82vw;
   }
-  to {
-    transform: rotate(360deg);
+}
+
+@media (max-width: 1100px) {
+  #email-addy {
+    display: none;
+  }
+  #social-logos {
+    display: none;
+  }
+}
+@media (max-width: 1100px) {
+  #email-addy {
+    display: none;
+  }
+  #social-logos2 {
+    display: flex;
+  }
+  .social2 > *:first-child {
+    font-size: 25px;
+    margin: 30px;
+    color: var(--nav-color);
+  }
+  #email-addy2 {
+    display: flex;
+    justify-content: center;
+  }
+  #email-addy2 code {
+  color: var(--nav-color);
   }
 }

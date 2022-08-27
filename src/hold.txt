@@ -1,0 +1,105 @@
+ <form id="over-all-contact">
+      <div id="contact-text">
+        <div id="contact-des">
+          <h4>Contact</h4>
+          <p>Feel free to contact me and I'll be sure to respond.</p>
+        </div>
+      </div>
+
+      <div id="contact-container">
+        <div id="contact-can">
+          <div id="name-text" className="text-box">
+            <label for="exampleFormControlInput1">Name</label>
+            <input
+              type="name"
+              id="exampleFormControlInput1"
+              placeholder="Enter Your Name"
+            />
+          </div>
+          <div className="text-box">
+            <label for="exampleFormControlInput1">Email</label>
+            <input
+              type="email"
+              id="exampleFormControlInput1"
+              placeholder="Enter Your Email"
+            />
+          </div>
+          <div id="message-text" className="text-box">
+            <label for="exampleFormControlTextarea1">Message</label>
+            <textarea
+              id="exampleFormControlTextarea1"
+              rows="3"
+              placeholder="Enter your message"
+            ></textarea>
+          </div>
+          <button
+            style={{ color: "red", width: "30px", height: "30px" }}
+            type="button"
+            className="submit-message"
+          ></button>
+        </div>
+      </div>
+    </form>
+
+
+
+
+
+
+
+
+    #over-all-contact {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+#contact-container {
+  display: flex;
+  justify-content: center;
+  background-color: purple;
+}
+#contact-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#contact-des {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#contact-des h4 {
+  color: var(--nav-color);
+}
+#contact-des p {
+  color: var(--nav-color);
+}
+.text-box label {
+  color: var(--nav-color);
+  margin-top: 5vh;
+}
+#contact-can {
+  width: 55vw;
+  height: 75vh;
+  padding: 3rem;
+}
+.text-box input {
+  border: 2px solid var(--green-color);
+  border-radius: 5px;
+  width: 100%;
+  height: 7vh;
+  margin-top: 1.5vh;
+  padding-left: 1.5vw;
+}
+#message-text {
+  height: 28vh;
+}
+.text-box textarea {
+  border: 2px solid var(--green-color);
+  border-radius: 5px;
+  width: 100%;
+  height: 100%;
+  margin-top: 1.5vh;
+  padding: 1.5vw;
+}

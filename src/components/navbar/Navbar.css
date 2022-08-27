@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+
+:root {
+  --nav-color: #fafafa;
+  --body-color: #1b1d2c;
+  --touch-color: #1b1d2c;
+  --green-color: #26ad5f;
+  --main-color: #1b1d2c;
+}
+
+#navbar {
+  width: 100vw;
+  height: 4.5rem;
+  position: fixed;
+  background-color: var(--main-color);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#logo {
+  height: 3rem;
+  width: 3.4rem;
+  padding-right: 3px;
+  margin-left: 4rem;
+  border: 1px var(--green-color) solid;
+  border-top-left-radius: 0.5rem;
+  border-bottom-right-radius: 1rem;
+}
+.nav-list-items {
+  display: block;
+}
+.nav-list-items a {
+  text-decoration: none;
+  margin: 1rem 4rem 0 1rem;
+  color: var(--nav-color);
+}
+.nav-list-items a:hover {
+    color: var(--green-color);
+}
+.nav-hold {
+  display: flex;
+}
+.navbar-components {
+  display: flex;
+}
+.mobile-navigation {
+  display: none;
+}
+
+@media (max-width: 760px) {
+  .desktop-navigation {
+    display: none;
+  }
+  .mobile-navigation {
+    display: flex;
+  }
+  .remove-navigation {
+    display: none;
+    background-color: purple;
+  }
+  .hammy-navigation {
+    margin: 1.5rem;
+    cursor: pointer;
+  }
+}

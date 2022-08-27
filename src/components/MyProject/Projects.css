@@ -1,0 +1,55 @@
+:root {
+  --nav-color: #ccd6f6;
+  --body-color: #1b1d2c;
+  --touch-color: #1b1d2c;
+  --green-color: #26ad5f;
+  --main-color: #1b1d2c;
+  --fourth-color: #2e324c;
+  --third-color: #171926;
+  --second-color: #1c1e2e;
+}
+
+#project-overall {
+  background-color: var(--body-color);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  padding-bottom: 10vh;
+}
+#project-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#project-title code {
+  color: var(--nav-color);
+  margin-bottom: 8vh;
+  padding-left: 1.5vh;
+}
+#project-title h4 {
+  font-size: 2.3rem;
+  color: var(--green-color);
+  margin: 10vh 0 3vh 0;
+}
+.projects-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.projects-des {
+  margin: 3vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.projects-des p {
+  color: var(--nav-color);
+}
+.projects-shot {
+  margin: 3vh;
+  border: 3px solid var(--green-color);
+  border-radius: 5px;
+}
+.projects-shot img {
+  width: 39vw;
+}

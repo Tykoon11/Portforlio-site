@@ -1,0 +1,59 @@
+:root {
+  --nav-color: #ccd6f6;
+  --body-color: #1b1d2c;
+  --touch-color: #1b1d2c;
+  --green-color: #26ad5f;
+  --main-color: #1b1d2c;
+  --fourth-color: #2e324c;
+  --third-color: #171926;
+  --second-color: #1c1e2e;
+}
+
+#contact-container {
+  height: 110vh;
+  padding-top: 10vh;
+}
+#form-container {
+  display: flex;
+  justify-content: center;
+}
+#contact-form {
+  width: 55vw;
+  height: 100%;
+  padding: 2.5rem;
+  background-color: var(--nav-color);
+}
+.btn-container {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.fill-form {
+  margin-top: 3rem;
+}
+#contact-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#contact-title h4 {
+  color: var(--green-color);
+  font-size: 2rem;
+}
+#contact-title p {
+  color: var(--nav-color);
+  font-size: 1.2rem;
+  padding-top: 0.5rem;
+  margin-bottom: 2rem;
+}
+.text-edit input {
+  line-height: 2.5rem;
+}
+.submit-btn {
+  padding: 1rem 4rem;
+  border: none;
+  border-radius: 1rem;
+  background-color: var(--green-color);
+  color: var(--nav-color);
+}
