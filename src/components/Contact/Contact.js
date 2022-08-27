@@ -6,7 +6,7 @@ const Contact = () => {
     <div id="contact-container">
       <div id="contact-title">
         <h4>Contact</h4>
-        <p>Feel free to contact me and I'll be sure to respond.</p>
+        <p>Feel free to contact me and I'll be sure to respond .</p>
       </div>
       <div id="form-container">
         <form action="POST" data-netlify="true" id="contact-form">
@@ -26,7 +26,7 @@ const Contact = () => {
               type="email"
               className="form-control"
               aria-describedby="emailHelp"
-              placeholder="Enter your email address..."
+              placeholder="Enter your email address.."
             />
           </div>
           <div className=" fill-form text-edit">
